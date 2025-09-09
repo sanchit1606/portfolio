@@ -165,7 +165,7 @@ export default function About() {
                       className="text-base sm:text-lg md:text-xl font-black uppercase tracking-wide"
                       style={{ fontFamily: "var(--font-dela-gothic)" }}
                     >
-                      athelete?
+                      athlete?
                     </span>
                   </div>
                   <div className="relative w-full h-full rounded-lg overflow-hidden border border-black shadow-2xl transition-transform duration-300 ease-out hover:-translate-y-2 hover:shadow-2xl">
