@@ -84,11 +84,11 @@ export default function About() {
 
               <div className="space-y-4 sm:space-y-6 text-base sm:text-lg">
                 <p>
-                  Hey! I'm <strong>Sanchit</strong>.
+                  Hey! I&apos;m <strong>Sanchit</strong>.
                 </p>
 
                 <p>
-                  I'm currently in my final year of B.Tech Computer Engineering at <a href="https://www.vit.edu/" target="_blank" rel="noopener noreferrer" className="underline hover:opacity-80">VIT Pune</a>. 
+                  I&apos;m currently in my final year of B.Tech Computer Engineering at <a href="https://www.vit.edu/" target="_blank" rel="noopener noreferrer" className="underline hover:opacity-80">VIT Pune</a>. 
                   My domains of interest lie in AI/ML, Deep Learning, and Software Development. I balance my technical work with creativity through sketching and art, 
                   and I love playing tennis and watching Academy Award–winning movies in my free time.
                 </p>

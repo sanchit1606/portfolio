@@ -71,7 +71,7 @@ export default function Home() {
             className="text-base sm:text-lg mb-8 sm:mb-10"
             style={{ fontFamily: "var(--font-geist-sans)" }}
           >
-            "You have to believe in yourself when no one else does – that makes you a winner right there."{" "}
+            &ldquo;You have to believe in yourself when no one else does – that makes you a winner right there.&rdquo;{" "}
             <span className="text-gray-500">- Novak Djokovic</span>
           </p>
 
