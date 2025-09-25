@@ -23,6 +23,7 @@ import CnCpBanner from "../../../images/cn-cp-banner.png";
 import CdCpBanner from "../../../images/cd-cp-banner.png";
 import Project2Img from "../../../images/project2.jpg";
 import Project5Img from "../../../images/project5.jpg";
+import CTNerfGif from "../../../images/CT_NERF.gif";
 
 import { Dock, DockIcon } from "@/components/magicui/dock";
 import useScrollRestoration from "@/hooks/useScrollRestoration";
@@ -226,7 +227,7 @@ export default function Projects() {
                   </div>
                   <div className="flex items-center justify-between gap-2 mb-1">
                     <span className="text-[10px] px-2 py-0.5 border border-black rounded-full uppercase">6th SEM</span>
-                    <span className="text-[10px] px-2 py-0.5 border border-black rounded-full uppercase">May ’25</span>
+                    <span className="text-[10px] px-2 py-0.5 border border-black rounded-full uppercase">May '25</span>
                   </div>
                   <p className="text-xs text-gray-700 mb-2">Vision‑Language • Generative AI</p>
                   <p className="text-sm text-gray-700">Frozen SigLIP 400M encoder + 2.4B Gemma decoder‑only LLM; CIDEr 141.9, VQA 83.19%.</p>
@@ -236,6 +237,28 @@ export default function Projects() {
                       <span>GitHub</span>
                     </Link>
                   </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          {/* 7th SEM - CTNeRF - Centered */}
+          <div className="flex justify-center mt-8">
+            <div className="relative group overflow-hidden rounded-xl w-full max-w-2xl aspect-video">
+              <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10"></div>
+              <Image src={CTNerfGif} alt="CTNeRF" fill className="object-cover" />
+              <div className="absolute bottom-0 left-0 right-0 p-5 z-20">
+                <div className="bg-white/90 backdrop-blur-sm rounded-lg p-4 shadow-lg transform translate-y-2 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
+                  <div className="flex items-center justify-between gap-2 mb-1">
+                    <h3 className="text-xl font-bold">CTNeRF: Advanced NeRF-GAN Hybrid Model</h3>
+                  </div>
+                  <div className="flex items-center justify-between gap-2 mb-1">
+                    <span className="text-[10px] px-2 py-0.5 border border-black rounded-full uppercase">7th SEM</span>
+                    <span className="text-[10px] px-2 py-0.5 border border-black rounded-full uppercase">Current</span>
+                  </div>
+                  <p className="text-xs text-gray-700 mb-2">Medical Imaging • NeRF • GAN • PyTorch</p>
+                  <p className="text-sm text-gray-700">Single-view 3D CT reconstruction using hybrid NeRF-GAN architecture. Reduces radiation exposure by 99%+ while maintaining diagnostic quality.</p>
                 </div>
               </div>
             </div>
