@@ -189,9 +189,6 @@ Hey there! 👋 I'm **Sanchit**, a passionate Computer Science student at VIT Pu
   <a href="https://drive.google.com/file/d/1eRNP95ttareVCGXvIzCZbJ7U_glhTWFh/view?usp=sharing">
     <img src="https://img.shields.io/badge/Resume-View%20CV-00D4FF?style=for-the-badge" alt="Resume" />
   </a>
-  <a href="https://sanchit1606.github.io/sanchit1606/">
-    <img src="https://img.shields.io/badge/Portfolio-View%20Website-FFD93D?style=for-the-badge" alt="Portfolio" />
-  </a>
   <a href="https://github.com/sanchit1606">
     <img src="https://img.shields.io/badge/GitHub-Follow-FF6B6B?style=for-the-badge&logo=github" alt="GitHub" />
   </a>
