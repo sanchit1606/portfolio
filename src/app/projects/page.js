@@ -89,7 +89,7 @@ export default function Projects() {
               <div className="text-right">
                 <p
                   className="japanese-text text-2xl sm:text-3xl mb-2"
-                  data-meaning="'Creation is the language of the soul.'"
+                  data-meaning="&apos;Creation is the language of the soul.&apos;"
                 >
                   「創造は魂の言語」
                 </p>
@@ -227,6 +227,8 @@ export default function Projects() {
                   </div>
                   <div className="flex items-center justify-between gap-2 mb-1">
                     <span className="text-[10px] px-2 py-0.5 border border-black rounded-full uppercase">6th SEM</span>
+                    <span className="text-[10px] px-2 py-0.5 border border-black rounded-full uppercase">May &apos;25</span>
+
                     <span className="text-[10px] px-2 py-0.5 border border-black rounded-full uppercase">May '25</span>
                   </div>
                   <p className="text-xs text-gray-700 mb-2">Vision‑Language • Generative AI</p>
