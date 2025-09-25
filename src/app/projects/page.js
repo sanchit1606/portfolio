@@ -228,10 +228,8 @@ export default function Projects() {
                   <div className="flex items-center justify-between gap-2 mb-1">
                     <span className="text-[10px] px-2 py-0.5 border border-black rounded-full uppercase">6th SEM</span>
                     <span className="text-[10px] px-2 py-0.5 border border-black rounded-full uppercase">May &apos;25</span>
-
-                    <span className="text-[10px] px-2 py-0.5 border border-black rounded-full uppercase">May '25</span>
                   </div>
-                  <p className="text-xs text-gray-700 mb-2">Vision‑Language • Generative AI</p>
+                  <p className="text-xs text-gray-700 mb-2">Vision-Language • Generative AI</p>
                   <p className="text-sm text-gray-700">Frozen SigLIP 400M encoder + 2.4B Gemma decoder‑only LLM; CIDEr 141.9, VQA 83.19%.</p>
                   <div className="mt-3">
                     <Link href="https://github.com/sanchit1606/A-Lightweight-Multimodal-Vision-Language-Model" target="_blank" className="inline-flex items-center gap-2 text-sm text-black hover:opacity-80">
@@ -364,7 +362,7 @@ export default function Projects() {
           <div className="mt-10 md:hidden">
             <p
               className="japanese-text text-2xl mb-2 text-center"
-              data-meaning="'Creation is the language of the soul.'"
+              data-meaning="&apos;Creation is the language of the soul.&apos;"
             >
               「創造は魂の言語」
             </p>
