@@ -110,19 +110,18 @@ export default function Projects() {
                     <span className="text-[10px] px-2 py-0.5 border border-black rounded-full uppercase">Current Project</span>
                   </div>
                   <div className="mb-2">
-                    <span className="text-[10px] px-2 py-0.5 border border-orange-500 bg-orange-100 text-orange-700 rounded-full uppercase">Still Under Development</span>
+                    <span className="text-[10px] px-2 py-0.5 border border-green-500 bg-green-100 text-green-700 rounded-full uppercase">Prototype-1 ready</span>
                   </div>
-                  <p className="text-xs text-gray-700 mb-1">Button links are disabled as project still in development, repo made private</p>
                   <p className="text-sm text-gray-700 mb-8">Multilingual, voice‑first AI triage assistant with specialist modules and PEARL CT reconstruction.</p>
                   <div className="absolute left-6 right-6 bottom-6 flex items-center justify-between">
-                    <div className="inline-flex items-center gap-2 text-sm text-gray-500">
+                    <Link href="https://github.com/sanchit1606/LUMEN.git" target="_blank" className="inline-flex items-center gap-2 text-sm text-black hover:opacity-80">
                       <GithubIcon className="w-4 h-4" />
                       <span>GitHub</span>
-                    </div>
-                    <div className="inline-flex items-center gap-2 text-sm text-gray-500">
+                    </Link>
+                    <Link href="https://lumen-sanchit.netlify.app/" target="_blank" className="inline-flex items-center gap-2 text-sm text-black hover:opacity-80">
                       <ExternalLinkIcon className="w-4 h-4" />
                       <span>Live Demo</span>
-                    </div>
+                    </Link>
                   </div>
                 </div>
               </div>
